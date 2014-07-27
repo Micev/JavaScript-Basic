@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculate Expression</title>
+    <script src="_14_calcExpression.js"></script>
+    <style>
+        #wrapper{
+            margin: 0 auto;
+            text-align: center;
+            width: 300px;
+        }
+        input#text{
+            border: 0;
+            width: 300px;
+            height: 30px;
+            background-color: #234465 ;
+            color: #E69A0B;
+            font-weight: bold;
+            padding-left:10px ;
+        }
+        input#btn{
+            background-color: white;
+            border: 2px solid black;
+            width: 100px;
+            height: 30px;
+            margin:20px 0;
+        }
+        p{
+            text-align: left;
+            line-height:40px ;
+            border: 0;
+            width: 300px;
+            height: 40px;
+            background-color: #234465 ;
+            color: #E69A0B;
+            font-weight: bold;
+            padding-left:10px ;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <input type="text" id="text">
+    <input type="button" value="Eval result" id="btn" onclick="calc()">
+    <p id="result"></p>
+</div>
+</body>
+</html>

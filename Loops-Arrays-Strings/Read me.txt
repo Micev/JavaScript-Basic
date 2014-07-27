@@ -1,0 +1,1 @@
+Use test.html to check the .js files(uncomment script tags one by one and chech).
